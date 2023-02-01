@@ -1,0 +1,124 @@
+  1  code
+    2  git config --global core.editor "code --wait"
+    3  git config --global -e
+    4  git config --global user.name "Mahendra Pratap Roy"
+    5  git config --global user.email mahendraprataproy@gmail.com
+    6  git config --global -e
+    7  git config --global -e
+    8  git config --global core.autocrlf true
+    9  git config --global core.autocrl true
+   10  git config --global -e
+   11  git config --global -e
+   12  ls
+   13  clear
+   14  ls
+   15  clear
+   16  mkdir GitLecture
+   17  cd GitLecture
+   18  echo "# mprdac" >> README.md
+   19  ls
+   20  git init
+   21  git add README.md
+   22  git commit -m "first commit 1011"
+   23  git remote add origin https://github.com/mproy5/mprdac.git
+   24  git push -u origin main
+   25  git config --global -e
+   26  clear
+   27  git config --global --list
+   28  mkdir folder1
+   29  touch folder1/file1.txt
+   30  code floder1/file1.txt
+   31  git add folder1
+   32  git status
+   33  git add *
+   34  git status
+   35  code readme.md
+   36  git add *
+   37  git status
+   38  git commit -m "second commit 1011"
+   39  git push -u origin main
+   40  git status
+   41  git add *
+   42  git status
+   43  git add/rm folder1/file1.txt
+   44  git rm folder1/file1.txt
+   45  git status
+   46  git commit -m "folder1 deleted 1011"
+   47  git -push origin main
+   48  git --push origin main
+   49  git push -u origin main
+   50  git log
+   51  pwd
+   52  mkdir team6
+   53  ls
+   54  cd team6
+   55  git clone https://github.com/HimanshuVMahajan/Team6-DenaryBlinder.git
+   56  ls
+   57  git init
+   58  clear
+   59  cd ..
+   60  cd ..
+   61  pwd
+   62  cd Mahendra
+   63  pwd
+   64  mkdir team-6
+   65  cd team-6
+   66  git clone  git clone https://github.com/HimanshuVMahajan/Team6-DenaryBlinder.git
+   67   git clone https://github.com/HimanshuVMahajan/Team6-DenaryBlinder.git
+   68  cd Team6-DenaryBlinder/
+   69  git branch m1
+   70  ls
+   71  code kaustubh.txt
+   72  git switch m1
+   73  code krunal.txt
+   74  git status
+   75  git add krunal.txt
+   76  git commit -m "m1 changed 1"
+   77  git push -u origin m1
+   78  git push -u origin m1
+   79  ls
+   80  code harshal.txt
+   81  ls
+   82  code mahendra.txt
+   83  git status
+   84  code kaustubh.txt
+   85  git add harshal.txt
+   86  git add krunal.txt
+   87  git status
+   88  git add mahendra.txt
+   89  git status
+   90  git restore kaustubh.txt
+   91  git status
+   92  git commit -m "harshal mahendra changed"
+   93  git push -u origin m1
+   94  git switch main
+   95  git push -u origin main
+   96  git switch m1
+   97  switch main
+   98  git switch main
+   99  git pull
+  100  vim harshal
+  101  git status
+  102  git status
+  103  git clone https://github.com/mproy5/gitprac.git
+  104  ls
+  105  cd gitprac
+  106  ls
+  107  cat README.md
+  108  clear
+  109  touch index.html
+  110  git add .
+  111  git status
+  112  git reset .
+  113  git status
+  114  clear
+  115  git add .
+  116  git commit -m "add index.html"
+  117  git status
+  118  git push
+  119  git status
+  120  git add .
+  121  git status
+  122  git commit -m "index.html add h1 tag"
+  123  git push
+  124  history
